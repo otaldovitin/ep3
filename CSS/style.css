@@ -1,60 +1,68 @@
 header{
-    background-color: rgb(78, 78, 78);
-    width: 100%;
-    position: fixed;
-    top: 0;
+    background-color: rgb(78, 78, 78);  /* Define a cor de fundo header */
+     width: 100%; /*Define o tamanho de header */
+     height: 12%; /*Define a altura do header  */
+     position: fixed; /*A posição do header será fixa */
+     top: 0; /*Altera o posicionamento do header */
 }
 
 body{
-  background-image: url(https://img.freepik.com/fotos-premium/ceu-noturno-estrelas-e-galaxias-no-ceu-ao-entardecer_494741-58775.jpg);
-  margin: 0%;
-  padding-top: 8%;
+  background-image: url(https://img.freepik.com/fotos-premium/ceu-noturno-estrelas-e-galaxias-no-ceu-ao-entardecer_494741-58775.jpg);  /*Plano de fundo do corpo da página*/
+  margin: 0%; /*Define a margem do corpo do testo */
+  padding-top: 8%; /*Indica o espaçamento superior */
 }
 
 .headercent{
   display: flex;
-  justify-content: center;
-  margin-left: 5%;
-  align-items: center;
+  justify-content: center; /*Os elementos ficaram no meio */
+  margin-left: 5%; /*Altera espaçamento da margem para o lado esquerdo */
+  align-items: center; /*Os itens ficaram no meio */
 
 
 }
 
 .nav{
-  text-shadow: none;
-  display: inline;
-  position: relative;
-  padding-left: 20px;
-  font-size: large;
+  text-shadow: none; /*A sombra será anulada nas palavras */
+  display: inline; /*Os elementos ficaram alinhados */
+  position: relative;  /*Os elementos serão posicionados de acordo com o fluxo natural da página */
+  padding-left: 20px; /*Altera o espaçamento do lado esquerdo  */
+  font-size: large; /*Altera o tamanho da fonte, para larga */
 }
 
 .superior{
-  color: rgb(248, 232, 0);
-  text-decoration: none;
-  border: 2px solid rgb(0, 0, 0);
-  padding: 1px 5px;
-  background-color: rgb(87, 87, 87);
-  transition: 4ms;
+  color: rgb(248, 232, 0); /*Altera a cor das palavras dos botões de navegação */
+  text-decoration: none; /*Altera a formatação das palavras */
+  border: 2px solid rgb(0, 0, 0); /*Altera a borda */
+  padding: 4px 8px; /*Altera o espaçamento entre os elementos */
+  background-color: rgb(87, 87, 87); /*Altera a cor de fundo dos botões de navegação */
+  transition: 4ms; /*Tempo de resposta de troca de página */
   border-radius: 8px; 
 }
 
+nav .superior:hover{  /*Altera a cor dos botões de navegação assim que passar o cursor encima*/
+  background-color: blue;  /*Altera a cor de fundo dos botões*/
+  color: black;  /*Muda a cor das letras*/
+  border: 4px solid  red;  /*Altera a espessura da borda, e a sua cor*/
+  border-radius: 8px; /*A borda ficara redonda */
+} 
+
 .textpadrao{
-  text-align: justify;
-  margin-left: 22%;
-  margin-right: 22%;
-  width: 55%;
-  text-indent: 50px;
-  font-size: large; 
-  border: 3px solid orange;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  background-color: rgba(3, 14, 24, 0.726) ;
-  border-radius: 2rem;
-  color: rgb(238, 216, 95);
-  margin-top: 1%;
-  margin-bottom: 1%;
+  text-align: justify; /*Os textos ficaram alinhados */
+  margin-left: 22%; /*A margem para a esquerda será de 22% */
+  margin-right: 22%; /*A margem para a direita será de 22%*/
+  width: 54%; /*O tamanho do local onde ficará o texto, será de 54%*/
+  text-indent: 50px;  /*Altera a indentação do texto*/
+  font-size: large; /*Altera o tamanho da fonte */
+  border: 3px solid orange;  /*Altera a borda*/
+  padding-left: 2rem;  /*Altera o espaçamento do lado esquerdo da página*/
+  padding-right: 2rem; /*Altera o espaçamento do direito da página */
+  padding-top: 1rem;  /*Indica o espaçamento da parte superior da página*/
+  padding-bottom: 2rem; /*Indica o espaçamento da parte inferior da página */
+  background-color: rgba(3, 14, 24, 0.726) ;  /*Altera a cor de fundo da página*/
+  border-radius: 2rem;  /*A borda ficará redonda*/
+  color: rgb(238, 216, 95);  /*Altera a cor das letras*/
+  margin-top: 1%;  /*Altera a margem da parte superior, na parte onde ficará os textos*/
+  margin-bottom: 1%;  /*Altera a margem da parte inferior, na parte onde ficará os textos */
 }
 
 .img{
@@ -84,7 +92,7 @@ body{
 }
 
 #logo_starwars{
-  width: 8rem;
+  width: 7rem;
   margin-right: 3rem;
 }   
 
