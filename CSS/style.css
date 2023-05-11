@@ -1,14 +1,14 @@
 header{
-    background-color: rgb(78, 78, 78);  /* Define a cor de fundo header */
-     width: 100%; /*Define o tamanho de header */
-     height: 12%; /*Define a altura do header  */
-     position: fixed; /*A posição do header será fixa */
-     top: 0; /*Altera o posicionamento do header */
+  background-color: rgb(78, 78, 78);  /* Define a cor de fundo header */
+  width: 100%; /*Define o tamanho de header */
+  height: 12%; /*Define a altura do header  */
+  position: fixed; /*A posição do header será fixa */
+  top: 0; /*Altera o posicionamento do header */
 }
 
 body{
   background-image: url(https://img.freepik.com/fotos-premium/ceu-noturno-estrelas-e-galaxias-no-ceu-ao-entardecer_494741-58775.jpg);  /*Plano de fundo do corpo da página*/
-  margin: 0%; /*Define a margem do corpo do testo */
+  margin: 0%; /*Define a margem do corpo do texto */
   padding-top: 8%; /*Indica o espaçamento superior */
 }
 
@@ -66,25 +66,25 @@ nav .superior:hover{  /*Altera a cor dos botões de navegação assim que passar
 }
 
 .img{
-    margin: auto;
-    display: block;
-    width: 50%;
+  margin: auto; 
+  display: block;
+  width: 50%;
 
 }
 
 .titulopadrao{
-  position: relative;
+  position: relative; /*Define como um elemento está posicionado em um documento */
   left: 22%;
   width: 50%;
-  text-align: center;
-  font-size: x-large;
-  letter-spacing: 3px;
-  font-weight: bold;
+  text-align: center; /*Alinha o texto ao centro*/
+  font-size: x-large; /*Define o tamanho da fonte*/
+  letter-spacing: 3px; /*Específica o espaço entre as letras */
+  font-weight: bold; /*O “valor” colocado em sua fonte que determinará o quão negrito ou claro seu texto aparecerá */
 }
 
 .figcaption{
-    font-size: xx-small;
-    text-align: center;
+  font-size: xx-small;
+  text-align: center;
 }
 
 #simb_header{
@@ -93,11 +93,11 @@ nav .superior:hover{  /*Altera a cor dos botões de navegação assim que passar
 
 #logo_starwars{
   width: 7rem;
-  margin-right: 3rem;
+  margin-right: 3rem; 
 }   
 
 #frase1{
-  position: absolute;
+  position: absolute; /*Define a posição como absoluta*/
   left: 2%;
   top: 10%;
   width: 29%;
@@ -119,8 +119,8 @@ footer{
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: rgb(238, 216, 95);
-  height: 100px;
-  background-image: linear-gradient(to right, blue, black, red);
-  background-size: 100%;
+  height: 100px; /*Determina a altura de uma área*/
+  background-image: linear-gradient(to right, blue, black, red); /*Cria um tipo de Degradê, uma imagem de uma cor que vai se transformando em outra*/
+  background-size: 100%; /*Especifica o tamanho das background images*/
   position: relative; 
 }
